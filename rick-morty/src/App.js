@@ -27,7 +27,7 @@ function App() {
         <h1 className="App-header">
             Rick & Morty
             {persons ?(
-                <Persons persons={persons}></Persons>
+                <Persons persons={persons} setPersons={setPersons}></Persons>
             ):
                 <>
                     <img src={logo} alt="Rick & Morty" className="img-home"/>
